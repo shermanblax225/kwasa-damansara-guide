@@ -32,3 +32,9 @@
 .mark i{position:absolute;left:3px;right:-4px;bottom:4px;height:3px;background:var(--gold);transform:rotate(-7deg);border-radius:50%;box-shadow:22px 5px 0 -1px var(--gold)}
 .footerMark{width:118px;height:78px;margin-bottom:8px}.footerMark .mStroke,.footerMark .wStroke{font-size:68px}.footerMark .wStroke{left:48px}.footerMark i{bottom:2px}
 .approvedHero img{image-rendering:auto;filter:contrast(1.025) saturate(1.035);backface-visibility:hidden}
+
+/* Exact uploaded MW trademark image */
+.mark{width:76px;height:48px;overflow:hidden;display:flex;align-items:center;justify-content:center;transform:none}
+.mark img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
+.footerMark{width:130px;height:82px}
+.footerMark img{width:100%;height:100%;object-fit:cover}
