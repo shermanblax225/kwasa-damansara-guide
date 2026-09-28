@@ -13,3 +13,6 @@
 
 /* Crop baked-in artwork navigation: real site nav remains */
 .approvedHero{padding-top:78px;height:auto}.approvedHero picture{display:block;overflow:hidden}.approvedHero img{width:100%;height:auto;display:block;transform:translateY(-4.15%);margin-bottom:-4.15%}@media(max-width:1000px){.approvedHero{padding-top:72px}.approvedHero img{transform:translateY(-4.15%);margin-bottom:-4.15%}}@media(max-width:600px){.approvedHero{min-height:0}.approvedHero picture{aspect-ratio:1/1.12;overflow:hidden}.approvedHero img{width:190%;max-width:none;transform:translate(-7%,-4.15%);margin-bottom:0}.approvedHero:after{display:none}}
+
+/* Definitive crop: remove full baked-in artwork header (about 6.8% of source image) */
+.approvedHero{padding-top:78px;overflow:hidden}.approvedHero picture{display:block;overflow:hidden}.approvedHero img{display:block;width:100%;height:auto;transform:translateY(-6.9%);margin-bottom:-6.9%}@media(max-width:1000px){.approvedHero{padding-top:72px}.approvedHero img{transform:translateY(-6.9%);margin-bottom:-6.9%}}@media(max-width:600px){.approvedHero{padding-top:72px;overflow:hidden}.approvedHero picture{aspect-ratio:1/1.08;overflow:hidden}.approvedHero img{width:190%;max-width:none;height:auto;transform:translate(-7%,-6.9%);margin-bottom:0}}
