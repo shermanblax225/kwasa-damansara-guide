@@ -44,3 +44,8 @@
 .heroClickTarget{position:absolute;z-index:30;left:2.05%;top:76.7%;width:16.1%;height:7.3%;display:block;background:transparent;cursor:pointer}
 @media(max-width:1000px){.heroClickTarget{left:2.05%;top:76.7%;width:16.1%;height:7.3%}}
 @media(max-width:600px){.heroClickTarget{left:3.9%;top:76.7%;width:30.6%;height:7.3%}}
+
+/* FINAL duplicate CTA suppression: only the button baked into the hero artwork is visible */
+.approvedHero > .exploreKwasaBtn,
+.approvedHero .exploreKwasaBtn,
+a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;width:0!important;height:0!important;padding:0!important;margin:0!important;overflow:hidden!important}
