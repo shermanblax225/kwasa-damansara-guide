@@ -69,3 +69,11 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 #finder .wrap{width:calc(100% - 48px)!important;max-width:none!important;margin-left:24px!important;margin-right:24px!important}
 #finder .finderShell{width:100%!important}
 @media(max-width:600px){#finder .wrap{width:calc(100% - 28px)!important;margin-left:14px!important;margin-right:14px!important}}
+
+/* Show the six gallery panels in the approved hero artwork at their full intended height */
+.approvedHero{padding-top:78px!important;overflow:hidden!important}
+.approvedHero picture{display:block!important;width:100%!important;overflow:hidden!important}
+.approvedHero img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;object-fit:contain!important;object-position:center top!important;transform:none!important;margin:0!important;filter:contrast(1.025) saturate(1.035)}
+#finder{padding-top:30px!important}
+@media(max-width:1000px){.approvedHero{padding-top:72px!important}.approvedHero img{transform:none!important;margin:0!important}}
+@media(max-width:600px){.approvedHero picture{aspect-ratio:auto!important}.approvedHero img{width:100%!important;max-width:100%!important;transform:none!important;margin:0!important}}
