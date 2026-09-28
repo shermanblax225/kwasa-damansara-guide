@@ -77,3 +77,10 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 #finder{padding-top:30px!important}
 @media(max-width:1000px){.approvedHero{padding-top:72px!important}.approvedHero img{transform:none!important;margin:0!important}}
 @media(max-width:600px){.approvedHero picture{aspect-ratio:auto!important}.approvedHero img{width:100%!important;max-width:100%!important;transform:none!important;margin:0!important}}
+
+/* Hide the navigation/header baked into the hero artwork; keep only the real site nav */
+.approvedHero{padding-top:78px!important}
+.approvedHero picture{display:block!important;overflow:hidden!important}
+.approvedHero img{display:block!important;width:100%!important;max-width:100%!important;height:auto!important;transform:translateY(-6.75%)!important;margin-bottom:-6.75%!important}
+@media(max-width:1000px){.approvedHero{padding-top:72px!important}.approvedHero img{transform:translateY(-6.75%)!important;margin-bottom:-6.75%!important}}
+@media(max-width:600px){.approvedHero img{width:100%!important;max-width:100%!important;transform:translateY(-6.75%)!important;margin-bottom:-6.75%!important}}
