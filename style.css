@@ -91,3 +91,8 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 .card.newProject:before{content:"KWASA DAMANSARA";position:absolute;top:24px;left:22px;color:#d5ad56;font-size:10px;letter-spacing:3px;font-weight:800}
 @media(max-width:1000px){.cards{grid-template-columns:repeat(2,1fr)!important}}
 @media(max-width:600px){.cards{grid-template-columns:1fr!important}}
+
+/* Official developer project cards */
+.officialProject{display:block;color:#fff}
+.officialProject small{display:block;margin-top:7px;color:#d5ad56;font-size:10px;letter-spacing:.5px}
+.dayaCard{background:linear-gradient(145deg,#18201d,#0a0d0c 60%,#2b2110)}
