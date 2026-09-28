@@ -49,3 +49,10 @@
 .approvedHero > .exploreKwasaBtn,
 .approvedHero .exploreKwasaBtn,
 a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!important;pointer-events:none!important;width:0!important;height:0!important;padding:0!important;margin:0!important;overflow:hidden!important}
+
+/* FINAL hero-to-finder alignment: finder begins cleanly below artwork gallery */
+.approvedHero{margin-bottom:0!important}
+#finder{position:relative;z-index:10;background:#07090a;padding:26px 0 0}
+#finder .finderShell{margin-top:0!important}
+@media(max-width:1000px){#finder{padding-top:22px}}
+@media(max-width:600px){#finder{padding-top:16px}#finder .finderShell{margin-top:0!important}}
