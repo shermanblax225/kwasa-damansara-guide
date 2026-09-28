@@ -96,3 +96,10 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 .officialProject{display:block;color:#fff}
 .officialProject small{display:block;margin-top:7px;color:#d5ad56;font-size:10px;letter-spacing:.5px}
 .dayaCard{background:linear-gradient(145deg,#18201d,#0a0d0c 60%,#2b2110)}
+
+/* Expanded established-developer grid */
+.developers .devrow{grid-template-columns:repeat(4,1fr)}
+.developers .dev{min-height:145px;border-right:1px solid #c8c2b7;border-bottom:1px solid #c8c2b7}
+@media(max-width:1000px){.developers .devrow{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:700px){.developers .devrow{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.developers .devrow{grid-template-columns:1fr}}
