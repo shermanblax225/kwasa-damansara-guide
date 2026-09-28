@@ -23,3 +23,12 @@
 .exploreKwasaBtn span{font-size:20px}
 @media(max-width:1000px){.exploreKwasaBtn{left:3%;bottom:7%;min-width:190px;padding:12px 17px;font-size:12px}}
 @media(max-width:600px){.exploreKwasaBtn{left:5%;bottom:7%;min-width:170px;padding:11px 14px;font-size:11px}}
+
+/* MW signature trademark treatment */
+.mark{position:relative;width:70px;height:42px;flex:0 0 70px;color:var(--gold);font-family:"Brush Script MT","Segoe Script",cursive;font-style:italic;font-weight:900;transform:none}
+.mark .mStroke,.mark .wStroke{position:absolute;top:-8px;font-size:38px;line-height:1;text-shadow:0 0 8px #d5ad5622}
+.mark .mStroke{left:1px;transform:rotate(-9deg) skew(-12deg)}
+.mark .wStroke{left:29px;top:-3px;transform:rotate(-10deg) skew(-15deg)}
+.mark i{position:absolute;left:3px;right:-4px;bottom:4px;height:3px;background:var(--gold);transform:rotate(-7deg);border-radius:50%;box-shadow:22px 5px 0 -1px var(--gold)}
+.footerMark{width:118px;height:78px;margin-bottom:8px}.footerMark .mStroke,.footerMark .wStroke{font-size:68px}.footerMark .wStroke{left:48px}.footerMark i{bottom:2px}
+.approvedHero img{image-rendering:auto;filter:contrast(1.025) saturate(1.035);backface-visibility:hidden}
