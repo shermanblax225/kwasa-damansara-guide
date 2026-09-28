@@ -16,3 +16,10 @@
 
 /* Definitive crop: remove full baked-in artwork header (about 6.8% of source image) */
 .approvedHero{padding-top:78px;overflow:hidden}.approvedHero picture{display:block;overflow:hidden}.approvedHero img{display:block;width:100%;height:auto;transform:translateY(-6.9%);margin-bottom:-6.9%}@media(max-width:1000px){.approvedHero{padding-top:72px}.approvedHero img{transform:translateY(-6.9%);margin-bottom:-6.9%}}@media(max-width:600px){.approvedHero{padding-top:72px;overflow:hidden}.approvedHero picture{aspect-ratio:1/1.08;overflow:hidden}.approvedHero img{width:190%;max-width:none;height:auto;transform:translate(-7%,-6.9%);margin-bottom:0}}
+
+/* Clickable CTA overlay for approved hero artwork */
+.exploreKwasaBtn{position:absolute;z-index:30;left:3.1%;bottom:7.4%;display:flex;align-items:center;justify-content:space-between;gap:22px;min-width:220px;padding:15px 22px;background:#e1b74f;color:#0b0b0b;border:1px solid #f2cf72;border-radius:3px;font-weight:900;font-size:14px;box-shadow:0 5px 22px #0007;cursor:pointer}
+.exploreKwasaBtn:hover{transform:translateY(-1px);filter:brightness(1.08)}
+.exploreKwasaBtn span{font-size:20px}
+@media(max-width:1000px){.exploreKwasaBtn{left:3%;bottom:7%;min-width:190px;padding:12px 17px;font-size:12px}}
+@media(max-width:600px){.exploreKwasaBtn{left:5%;bottom:7%;min-width:170px;padding:11px 14px;font-size:11px}}
