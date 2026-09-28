@@ -38,3 +38,9 @@
 .mark img{width:100%;height:100%;object-fit:cover;object-position:center;display:block}
 .footerMark{width:130px;height:82px}
 .footerMark img{width:100%;height:100%;object-fit:cover}
+
+/* Invisible click target over the Explore Kwasa button baked into approved HD artwork */
+.exploreKwasaBtn{display:none!important}
+.heroClickTarget{position:absolute;z-index:30;left:2.05%;top:76.7%;width:16.1%;height:7.3%;display:block;background:transparent;cursor:pointer}
+@media(max-width:1000px){.heroClickTarget{left:2.05%;top:76.7%;width:16.1%;height:7.3%}}
+@media(max-width:600px){.heroClickTarget{left:3.9%;top:76.7%;width:30.6%;height:7.3%}}
