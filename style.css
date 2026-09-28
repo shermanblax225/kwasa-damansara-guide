@@ -64,3 +64,8 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 #finder .wrap{width:min(1280px,calc(100% - 64px));margin-left:auto;margin-right:auto}
 @media(max-width:1000px){.approvedHero img{width:100%!important;max-width:100%!important;transform:translateY(-6.9%)!important}.approvedHero picture{aspect-ratio:auto!important}#finder{padding-top:24px!important}}
 @media(max-width:600px){.approvedHero picture{aspect-ratio:auto!important}.approvedHero img{width:100%!important;max-width:100%!important;transform:translateY(-6.9%)!important;margin-bottom:-6.9%!important}#finder .wrap{width:calc(100% - 28px)}}
+
+/* Match Property Finder horizontal alignment to full-width hero/gallery */
+#finder .wrap{width:calc(100% - 48px)!important;max-width:none!important;margin-left:24px!important;margin-right:24px!important}
+#finder .finderShell{width:100%!important}
+@media(max-width:600px){#finder .wrap{width:calc(100% - 28px)!important;margin-left:14px!important;margin-right:14px!important}}
