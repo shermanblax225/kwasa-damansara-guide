@@ -103,3 +103,18 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 @media(max-width:1000px){.developers .devrow{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:700px){.developers .devrow{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:480px){.developers .devrow{grid-template-columns:1fr}}
+
+
+/* 2026-09-29 FINAL HERO FIX: use the approved artwork itself as the complete full-width header. */
+.nav{display:none!important}
+.approvedHero{position:relative!important;padding:0!important;margin:0!important;width:100%!important;overflow:hidden!important;background:#050607!important}
+.approvedHero picture{display:block!important;width:100%!important;margin:0!important;overflow:visible!important}
+.approvedHero img{display:block!important;width:100%!important;max-width:none!important;height:auto!important;object-fit:contain!important;object-position:center top!important;transform:none!important;margin:0!important;filter:none!important}
+.heroClickTarget{display:none!important}
+.heroHotspot{position:absolute;z-index:40;display:block;background:transparent}
+.hsHome{left:27.1%;top:1.2%;width:4.2%;height:6.1%}.hsAbout{left:31.7%;top:1.2%;width:7.1%;height:6.1%}.hsProjects{left:39.5%;top:1.2%;width:5.6%;height:6.1%}.hsLifestyle{left:45.7%;top:1.2%;width:6%;height:6.1%}.hsInvestment{left:52.2%;top:1.2%;width:6.5%;height:6.1%}.hsContact{left:59.3%;top:1.2%;width:5.5%;height:6.1%}.hsEnquire{left:65.2%;top:0.7%;width:11.8%;height:6.7%}
+.hsExplore{left:3.1%;top:72.0%;width:13.7%;height:7.2%}
+.hsConnectivity{left:1%;top:81.6%;width:16%;height:15.2%}.hsRetail{left:17.5%;top:81.6%;width:16%;height:15.2%}.hsParks{left:34%;top:81.6%;width:16%;height:15.2%}.hsEducation{left:50.5%;top:81.6%;width:16%;height:15.2%}.hsBusiness{left:67%;top:81.6%;width:16%;height:15.2%}.hsResidential{left:83.5%;top:81.6%;width:15.5%;height:15.2%}
+#finder{padding-top:30px!important}
+@media(max-width:1000px){.approvedHero{padding:0!important}.approvedHero img{width:100%!important;transform:none!important;margin:0!important}.heroHotspot{display:block!important}}
+@media(max-width:600px){.approvedHero{padding:0!important;min-height:0!important}.approvedHero picture{aspect-ratio:auto!important;overflow:visible!important}.approvedHero img{width:100%!important;max-width:none!important;transform:none!important;margin:0!important}.heroHotspot{display:block!important}}
