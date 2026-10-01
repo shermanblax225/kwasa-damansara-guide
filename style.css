@@ -130,3 +130,10 @@ a.exploreKwasaBtn{display:none!important;visibility:hidden!important;opacity:0!i
 .newsStack{display:grid;grid-template-columns:1fr 1fr;gap:12px}.newsMini{background:#111416;border:1px solid #ffffff14;padding:25px;min-height:188px}.newsIcon{font-size:23px;margin-bottom:18px}.newsMini h3{font:20px Georgia,serif;margin:7px 0}.newsMini p{margin:0}
 @media(max-width:900px){.newsHead,.newsGrid{grid-template-columns:1fr}.newsHead{gap:15px}.newsLead{grid-template-columns:1fr 1fr}.newsTickerText span{display:none}}
 @media(max-width:600px){.newsTicker{grid-template-columns:1fr auto;gap:10px;padding:12px 14px;min-height:62px}.newsTickerText{display:none}.kwasaNow>.wrap{padding-top:45px;padding-bottom:52px}.newsLead{grid-template-columns:1fr}.newsVisual{min-height:220px}.newsBody{padding:25px}.newsStack{grid-template-columns:1fr 1fr}.newsMini{padding:18px;min-height:180px}.newsMini h3{font-size:17px}.newsMini p{font-size:11px}}
+
+/* 2026-10-01: blend approved MW logo into dark site background */
+.mark{width:110px;height:72px;background:transparent;overflow:hidden}
+.mark img{width:100%;height:100%;object-fit:contain;object-position:center;background:transparent;mix-blend-mode:screen}
+.footerMark{width:150px;height:105px;background:transparent;overflow:hidden}
+.footerMark img{width:100%;height:100%;object-fit:contain;object-position:center;background:transparent;mix-blend-mode:screen}
+@media(max-width:600px){.mark{width:92px;height:60px}.footerMark{width:130px;height:92px}}
